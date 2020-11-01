@@ -1,0 +1,477 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* MY CODE */
+
+* {
+  text-decoration: none;
+}
+
+body {
+  height: 5952px;
+  width: 1920px;
+  background-color: #0F0704;
+  z-index: 1;
+}
+
+.logo {
+  position: fixed;
+  left: 78px;
+  top: 58px;
+  z-index: 2;
+}
+
+nav .menu {
+  background-color: rgba(126,99,71,0.5);
+  position: fixed;
+  left: 310px;
+  right: 1035px;
+  top: 57px;
+  width: 575px;
+  height: 78px;
+  z-index: 3;
+}
+
+header li a {
+  font-family: poppins;
+  font-weight: thin;
+  font-size: 20px;
+  color: #E8E7E1;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F0A62E;
+}
+
+header ol {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+  list-style: none;
+}
+
+header ol li {
+  display: inline-block;
+  float: left;
+  list-style: none;
+  padding: 25px 16px;
+}
+
+
+header ol li .btn {
+  color: #E8E7E1;
+  background-color: rgba(126,99,71,0.1);
+  border: 2px solid rgba(126,99,71,0.1);
+}
+
+#dropdownMenuLink {
+  background-color: rgba(126,99,71,0.1);
+}
+
+.form-inline {
+  position: absolute;
+  top: 82px;
+  left: 1200px;
+  z-index: 4;
+  display: inline-block;
+  font-size: 10px;
+}
+
+.form-inline .btn {
+  color: #E8E7E1;
+  border: 2px solid #CB9164;
+}
+
+.form-inline .btn:hover {
+  background-color: #CB9164;
+}
+
+.form-control {
+  background-color: inherit;
+  border: 2px solid #CB9164;
+}
+
+.slogan {
+  position: absolute;
+  font-family: poppins;
+  font-size: 85px;
+  line-height: 125px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #E8E7E1;
+  text-shadow: 0px 6px 12px #000000;
+  width: 1305px;
+  height: 446px;
+  padding: 317px 64px;
+  z-index: 1;
+}
+
+.light-bulbs {
+  display: block;
+  margin: 0 auto;
+  width: 1804px;
+  height: 1009px;
+  position: absolute;
+  left: 58px;
+  right: 58px;
+  top: 36px;
+  z-index: 1;
+  opacity: 0.5;
+}
+
+.sign-in {
+  padding: 705px 78px;
+  position: absolute;
+  z-index: 2;
+}
+
+.sign-in .btn {
+  color: #E8E7E1;
+  border: 2px solid #CB9164;
+  font-size: 20px;
+}
+
+.sign-in .btn:hover {
+  color: #E8E7E1;
+  background-color: #CB9164;
+  border-color: #CB9164;
+}
+
+.social-medias {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  right: 167px;
+  top: 972px;
+  z-index: 2;
+}
+
+.instagram-icon {
+  width: 35px;
+  height: 35px;
+}
+
+.facebook-icon {
+  width: 35px;
+  height: 35px;
+}
+
+#carouselExampleIndicators {
+  width: 707px;
+  height: 800px;
+  position: absolute;
+  top: 1216px;
+  left: 178px;
+}
+
+.carousel-item {
+  width: 707px;
+  height: 800px;
+}
+
+.gallery-description {
+  position: absolute;
+  left: 348px;
+  top: 2027px;
+  font-family: poppins;
+  font-size: 15px;
+  text-align: center;
+  color: #E8E7E1;
+
+}
+
+section .about-us {
+  width: 753px;
+  height: 555px;
+  position: absolute;
+  top: 1343px;
+  left: 1045px;
+}
+
+.about-us h3 {
+font-family: Imprint MT Shadow;
+font-size: 50px;
+text-transform: capitalize;
+color: #E0D0B1;
+line-height: 60px;
+position: absolute;
+top: 1343px;
+left: 1286px;
+width: 272px;
+height: 58px;
+}
+
+.about-us p {
+  font-family: poppins;
+  font-size: 25px;
+  font-weight: lighter;
+  color: #E8E7E1;
+  line-height: 60px;
+  position: absolute;
+  top: 1426px;
+  left: 1045px;
+  text-align: center;
+  width: 753px;
+  height: 357px;
+}
+
+.read-more-btn {
+  position: absolute;
+  top: 1815px;
+  left: 1628px;
+  width: 143px;
+  height: 58px;
+}
+
+.read-more-btn .btn {
+  color: #E8E7E1;
+  border: 4px solid #F0A62E;
+  font-size: 20px;
+}
+
+.read-more-btn .btn:hover {
+  color: #E8E7E1;
+  background-color: #F0A62E;
+  border: 4px solid #F0A62E;
+}
+
+.neon-cup {
+  background-image: url('img/neon-cup.jpg');
+  display: block;
+  margin: 0 auto;
+  width: 1760px;
+  height: 990px;
+  position: absolute;
+  left: 80px;
+  top: 2205px;
+
+}
+
+.neon-cup h3 {
+  font-family: poppins;
+  text-transform: uppercase;
+  font-size: 70px;
+  color: #E8E7E1;
+  font-weight: bolder;
+  text-align: center;
+  padding: 516px 238px;
+  line-height: 80px;
+  text-shadow: 0px 6px 12px #000000;
+}
+
+.visit-us {
+  position: absolute;
+  top: 2990px;
+  left: 920px;
+  font-family: poppins;
+  text-transform: uppercase;
+  font-size: 25px;
+  color: #E8E7E1;
+  font-weight: bolder;
+  text-align: center;
+  text-shadow: 0px 6px 12px #000000;
+}
+
+.visit-us .btn {
+  color: #E8E7E1;
+  border: 4px solid #F0A62E;
+  font-size: 20px;
+}
+
+.visit-us .btn:hover {
+  color: #E8E7E1;
+  background-color: #F0A62E;
+  border: 4px solid #F0A62E;
+}
+
+.cups {
+  position: absolute;
+  left: 163px;
+  top: 3310px;
+}
+
+.why-us {
+  position: absolute;
+  left: 80px;
+  top: 4474px;
+  width: 934px;
+  height: 702px;
+
+}
+
+.why-us h3 {
+text-align: center;
+font-family: Imprint MT Shadow;
+font-size: 60px;
+text-transform: uppercase;
+line-height: 70px;
+color: #E0D0B1;
+
+}
+
+.why-us p {
+font-family: poppins;
+font-size: 25px;
+line-height: 60px;
+color: #E8E7E1;
+width: 778px;
+height: 537px;
+padding-top: 15px;
+}
+
+.cup {
+  position: absolute;
+  left: 1014px;
+  top: 4731px;
+}
+
+.quote {
+  position: absolute;
+  left: 1213px;
+  top: 4565px;
+}
+
+.footer-box {
+  width: 1700px;
+  height: 320px;
+  position: absolute;
+  left: 113px;
+  top: 5554px;
+  background-color: #7E6347;
+}
+
+.footer-box ol {
+  list-style: none;
+  margin: 25px;
+
+}
+
+.footer-box li {
+font-family: poppins;
+font-size: 40px;
+line-height: 70px;
+color: #E0D0B1;
+}
+
+.social-medias-2 {
+  width: 164px;
+  height: 76px;
+  position: absolute;
+  left: 1599px;
+  top: 5768px;
+  z-index: 2;
+}
+
+.social-medias-2 .instagram-icon {
+  width: 76px;
+  height: 76px;
+}
+
+.social-medias-2 .facebook-icon {
+  width: 76px;
+  height: 76px;
+}
