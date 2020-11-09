@@ -1,0 +1,382 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* MY CODE */
+
+* {
+  text-decoration: none;
+}
+
+
+body {
+  height: 4738px;
+  width: 1920px;
+  background-color: #0F0704;
+  z-index: 1;
+}
+
+
+.logo {
+  position: fixed;
+  left: 78px;
+  top: 58px;
+  z-index: 2;
+}
+
+nav .menu {
+  background-color: inherit;
+  position: fixed;
+  left: 310px;
+  right: 1035px;
+  top: 57px;
+  width: 575px;
+  height: 78px;
+  z-index: 3;
+}
+
+header li a {
+  font-family: poppins;
+  font-weight: thin;
+  font-size: 20px;
+  color: #E8E7E1;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F0A62E;
+}
+
+header ol {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+  list-style: none;
+}
+
+header ol li {
+  display: inline-block;
+  float: left;
+  list-style: none;
+  padding: 25px 16px;
+}
+
+
+header ol li .btn {
+  color: #E8E7E1;
+  background-color: rgba(126,99,71,0.1);
+  border: 2px solid rgba(126,99,71,0.1);
+}
+
+#dropdownMenuLink {
+  background-color: rgba(126,99,71,0.1);
+}
+
+.form-inline {
+  position: absolute;
+  top: 82px;
+  left: 1200px;
+  z-index: 4;
+  display: inline-block;
+  font-size: 10px;
+}
+
+.form-inline .btn {
+  color: #E8E7E1;
+  border: 2px solid #CB9164;
+}
+
+.form-inline .btn:hover {
+  background-color: #CB9164;
+}
+
+.form-control {
+  background-color: inherit;
+  border: 2px solid #CB9164;
+}
+
+.bg-about {
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  left: 147.76px;
+  z-index: 1;
+}
+
+.slogan-about {
+  position: absolute;
+  left: 442px;
+  top: 415px;
+  z-index: 2;
+}
+
+.slogan-about h1 {
+  font-family: Baskerville Old Face;
+  color: #E0D0B1;
+  font-size: 150px;
+  line-height: 70px;
+  text-transform: uppercase;
+  text-shadow: 0px 6px 12px solid black;
+}
+
+.info-text {
+  position: absolute;
+  left: 1124px;
+  top: 641px;
+}
+
+.info-text p {
+  width: 479px;
+  height: 126px;
+  font-family: poppins;
+  color: #E0D0B1;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.see-more {
+  font-size: 30px;
+  font-weight: bold;
+  color: #E0D0B1;
+  text-transform: capitalize;
+  position: absolute;
+  left: 1124px;
+  top: 822px;
+}
+
+.arrow {
+  position: absolute;
+  left: 1270px;
+  top: 830px;
+}
+
+.history-of-us {
+  position: absolute;
+  left: 132px;
+  top: 1317px;
+}
+
+.history-of-us h2 {
+  font-family: Baskerville Old Face;
+  color: #E0D0B1;
+  font-size: 100px;
+  line-height: 70px;
+  text-transform: uppercase;
+  text-shadow: 0px 6px 12px solid black;
+}
+
+.history-of-us p {
+  font-family: poppins;
+  color: #7E6347;
+  font-size: 30px;
+  line-height: 30px;
+  width: 595px;
+  padding-top: 40px;
+}
+
+.circles {
+  position: absolute;
+  left: 1137px;
+  top: 1294px;
+}
+
+.video-bg {
+  position: absolute;
+  top: 2061px;
+  height: 1072px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.coffee-we-use {
+  position: absolute;
+  left: 574px;
+  top: 2527px;
+  font-family: poppins;
+  color: #E0D0B1;
+  text-transform: uppercase;
+  font-size: 100px;
+  line-height: 30px;
+  text-shadow: 0px 6px 12px solid black;
+  z-index: 2;
+  font-weight: bolder;
+}
+
+.visit-us {
+  position: absolute;
+  left: 1014px;
+  top: 3389px;
+  width: 758px;
+  height: 610px;
+}
+
+.visit-us p {
+  font-family: poppins;
+  color: #E0D0B1;
+  font-size: 40px;
+  line-height: 53px;
+  padding-top: 60px;
+}
+
+.visit-us h2 {
+  font-family: poppins;
+  color: #E0D0B1;
+  text-transform: uppercase;
+  font-size: 100px;
+  line-height: 30px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.map {
+  left: 148px;
+  top: 3415px;
+  height: 691px;
+  width: 713px;
+  position:absolute;
+}
+
+.footer-box {
+  width: 1700px;
+  height: 320px;
+  position: absolute;
+  left: 113px;
+  top: 4334px;
+  background-color: #7E6347;
+}
+
+.footer-box ol {
+  list-style: none;
+  margin: 25px;
+
+}
+
+.footer-box li {
+font-family: poppins;
+font-size: 40px;
+line-height: 70px;
+color: #E0D0B1;
+}
+
+.social-medias-2 {
+  width: 164px;
+  height: 76px;
+  position: absolute;
+  left: 1599px;
+  top: 4548px;
+  z-index: 2;
+}
+
+.social-medias-2 .instagram-icon {
+  width: 76px;
+  height: 76px;
+}
+
+.social-medias-2 .facebook-icon {
+  width: 76px;
+  height: 76px;
+}
