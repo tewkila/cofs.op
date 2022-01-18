@@ -3,9 +3,6 @@
 <!-- ABOUT THE PROJECT -->
 
 # E-commarce website for coffee shop
-
-[![Product Name Screen Shot][product-screenshot]](https://raw.githubusercontent.com/tewkila/cofs.op/main/cofs.op.png)
-
 <h3 style="font-weight=bold"> About The Project  </h3>
 
 <p> This project was done a while ago for personal uses only. It's a coffee shop website made with HTML & CSS only. 
